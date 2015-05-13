@@ -1,8 +1,6 @@
 # pr-roads
 
-## Inspiration
-
-Google maps doesn't work in PR
+Inspiration: Google maps doesn't work in PR
 
 ## How it works
 
