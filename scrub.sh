@@ -15,3 +15,5 @@ wget http://www2.census.gov/geo/tiger/TIGER2013/PRISECROADS/tl_2013_72_prisecroa
 
 # download all roads in PR
 for i in {000..199}; do wget http://www2.census.gov/geo/tiger/TIGER2013/ROADS/tl_2013_27"$i"_roads.zip; done
+unzip "*.zip"
+zip all-pr-roads.zip tl_2013*
