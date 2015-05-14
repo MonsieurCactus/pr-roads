@@ -11,5 +11,7 @@ zip pr-roads.zip pr-roads*
 
 # Primary and Secondary roads come ready to submit to Socrata 
 # http://catalog.data.gov/dataset/tiger-line-shapefile-2013-series-information-file-for-the-primary-and-secondary-roads-state-bas
-# 
 wget http://www2.census.gov/geo/tiger/TIGER2013/PRISECROADS/tl_2013_72_prisecroads.zip
+
+# download all roads in PR
+for i in {00..99}; do wget http://www2.census.gov/geo/tiger/TIGER2013/ROADS/tl_2013_270"$i"_roads.zip; done
